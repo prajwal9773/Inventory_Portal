@@ -9,8 +9,8 @@ A modern, responsive React application for managing and exploring product invent
 
 ## 🚀 Live Demo
 
-**Deployed Application**: [Your Deployment Link Here]  
-**GitHub Repository**: [Your Repository Link Here]
+**Deployed Application**: [https://inventory-portal-omega.vercel.app/]  
+
 
 ---
 
