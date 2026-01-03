@@ -6,6 +6,7 @@ import InventoryOverview from './pages/InventoryOverview';
 import ProductDetails from './pages/ProductDetails';
 import CatalogueOverview from './pages/CatalogueOverview';
 import Analysis from './pages/Analysis';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/product/:id" element={<ProductDetails />} />
             <Route path="/catalogue" element={<CatalogueOverview />} />
             <Route path="/analysis" element={<Analysis />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
       </Router>
