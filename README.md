@@ -84,24 +84,24 @@ src/
 
 ## 📖 User Stories Implementation
 
-### 1️⃣ Inventory Overview Screen ✅
+### 1️⃣ Inventory Overview Screen 
 - **Data Visibility**: Product Name, Price, Brand, Category, Stock, Rating, Discount
 - **Organization**: Sort by Price/Name, Filter by Category
-- **Data Volume**: Pagination with 20+ products per page
+- **Data Volume**: Pagination with 20 products per page
 - **Quick Search**: Real-time debounced search (500ms)
 
-### 2️⃣ Product Details Screen ✅
+### 2️⃣ Product Details Screen 
 - **Visual Layout**: Clean design with large product image
 - **Information Depth**: Description, Rating, Reviews, Discount, Stock
 - **Related Products**: 6 similar products from same category as visual cards
 
-### 3️⃣ Catalogue Overview Screen ✅
+### 3️⃣ Catalogue Overview Screen 
 - **High-Level View**: Visual category cards with images
 - **API Integration**: `/products/categories` + `/products/category/{category}`
 - **Drill-Down**: Click category → filtered product list
 - **Reusability**: Same Inventory Overview component
 
-### 4️⃣ Welcome Home Page ✅
+### 4️⃣ Welcome Home Page 
 - **User Guidance**: Clear instructions for new users
 - **Navigation**: Direct links to Inventory & Catalogue
 - **Feature Highlights**: Modern, engaging design
