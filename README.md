@@ -27,7 +27,6 @@ A modern, responsive React application for managing and exploring product invent
 - 🔍 **Debounced Search** - 500ms optimized search
 - 📱 **Fully Responsive** - Works on desktop, tablet, and mobile
 - 🎨 **Shimmer Loading** - Beautiful skeleton loaders
-- 🛡️ **Error Handling** - Clear messages with retry functionality
 - 🔄 **State Management** - React Context API
 
 ---
@@ -44,9 +43,6 @@ A modern, responsive React application for managing and exploring product invent
 
 ## 🚦 Getting Started
 
-### Prerequisites
-- Node.js v16+
-- npm or yarn
 
 ### Installation
 
