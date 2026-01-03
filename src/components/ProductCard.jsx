@@ -1,17 +1,13 @@
 import { Link } from 'react-router-dom';
 
-/* ------------------------------
-   Stock helper (single source)
--------------------------------- */
+
 const getStockStatus = (stock = 0) => {
   if (stock > 10) return { label: 'In Stock', color: 'green' };
   if (stock > 0) return { label: 'Low Stock', color: 'yellow' };
   return { label: 'Out of Stock', color: 'red' };
 };
 
-/* ------------------------------
-   Product Card Component
--------------------------------- */
+
 const ProductCard = ({ product, variant = 'grid' }) => {
   const stock = product?.stock ?? 0;
   const { label, color } = getStockStatus(stock);
@@ -20,9 +16,7 @@ const ProductCard = ({ product, variant = 'grid' }) => {
     product.image ||
     (product.images && product.images[0]);
 
-  /* ==============================
-     GRID VIEW (Customer / Catalog)
-  =============================== */
+
   if (variant === 'grid') {
     return (
       <Link
@@ -73,9 +67,7 @@ const ProductCard = ({ product, variant = 'grid' }) => {
     );
   }
 
-  /* ==============================
-     TABLE VIEW (Admin / Inventory)
-  =============================== */
+
   return (
     <tr className="border-b hover:bg-gray-50 transition-colors group">
       {/* Product */}
